@@ -1,36 +1,74 @@
 #include <iostream>
 using namespace std;
 
-void search(int arr[], int size, int n);
+// void search(int arr[], int size, int n);
 
+
+// int main(){
+
+//     int arr[] = {5, 9, 10, 0, 16, 18, 1, 6, 8};
+
+//     int size = sizeof(arr)/sizeof(arr[0]);
+//     int n = 100;
+
+//     search(arr, size, n);
+
+//     return 0;
+// }                               
+
+// void search(int arr[], int size, int n){
+//     bool found = false;
+    
+//     for (int i = 0; i < size; i++)
+//     {
+//         if (arr[i] == n)
+//         {
+//             cout << n << " is found at index  " << i << endl;
+//             found = true;
+//             break;
+//         } 
+//     }
+
+//     if (!found)
+//     {
+//         cout << n << " doesnt exist in the array \n";
+//     }
+// }
+
+
+
+
+int linearSearch (int arr[], int size, int key);
 
 int main(){
 
     int arr[] = {5, 9, 10, 0, 16, 18, 1, 6, 8};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int key;
 
-    int size = sizeof(arr)/sizeof(arr[0]);
-    int n = 100;
+    cout << "Enter the number to search: ";
+    cin >> key;
 
-    search(arr, size, n);
+    int result = linearSearch(arr, size,key);
+
+    if (result != -1)
+    {
+        cout << key << " found at index " << result << endl;
+    } else {
+        cout << key << " doesnt exist in the array" << endl;
+    }
 
     return 0;
-}                               
-
-void search(int arr[], int size, int n){
-    bool found = false;
     
+}
+
+int linearSearch (int arr[], int size, int key){
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] == n)
+        if (arr[i] == key)          
         {
-            cout << n << " is found at index  " << i << endl;
-            found = true;
-            break;
-        } 
+            return i;
+        }
     }
-
-    if (!found)
-    {
-        cout << n << " doesnt exist in the array \n";
-    }
+    return -1;
 }

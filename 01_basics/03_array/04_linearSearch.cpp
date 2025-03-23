@@ -59,7 +59,6 @@ int main(){
     }
 
     return 0;
-    
 }
 
 int linearSearch (int arr[], int size, int key){

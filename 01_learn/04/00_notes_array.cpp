@@ -14,3 +14,8 @@
 
 //  - Iterate over an array
 //      - using the for loop
+
+//  - foreach loop
+//      - loop that eases the traversal over an iterable data set
+//      - good for displaying elmts of array as it is less flexible
+//      - 

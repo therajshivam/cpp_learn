@@ -18,4 +18,6 @@
 //  - foreach loop
 //      - loop that eases the traversal over an iterable data set
 //      - good for displaying elmts of array as it is less flexible
+
+//  - Pass array to a function
 //      - 

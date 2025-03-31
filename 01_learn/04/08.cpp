@@ -1,4 +1,4 @@
-// multi dimentional arrays
+// multi dimensional arrays
 
 #include <iostream>
 using namespace std;

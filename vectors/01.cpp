@@ -19,7 +19,7 @@ int main(){
 
     // vector with fixed size
     vector<int> vect(5, 0); 
-    // 3 => size of the vector
+    // 5 => size of the vector
     // 0 => it is the value to put on every indexes
     cout << vect[0] << endl;
     cout << vect[1] << endl;

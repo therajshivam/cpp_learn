@@ -30,7 +30,5 @@ int main() {
         }
     } // O(N^2) Time complexity
 
-    
-
     return 0;
 }

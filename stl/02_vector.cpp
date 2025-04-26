@@ -22,9 +22,5 @@ int main(){
     vec.push_back({1,2});
     vec.emplace_back(1,2); // adding elements
 
-
-
-
-    
     return 0;
 }

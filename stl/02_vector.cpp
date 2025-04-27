@@ -31,10 +31,5 @@ int main(){
     vector<int> v1(5, 20);
     vector<int> v2(v1);
 
-     
-
-
-    
-
     return 0;
 }

@@ -32,11 +32,9 @@ int main(){
     vector<int> v2(v1);
 
     vector<int>;
+    vector<int>;
 
 
-
-
-    
     
     return 0;
 }

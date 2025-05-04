@@ -3,8 +3,6 @@
 // It automatically resizes itself when elements are added or removed.
 
 
-
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -31,14 +29,10 @@ int main(){
     vector<int> v1(5, 20);
     vector<int> v2(v1);
 
-    vector<int>;
-    vector<int>;
-
-
-
-
-
     
+
+
+
 
     return 0;
 }

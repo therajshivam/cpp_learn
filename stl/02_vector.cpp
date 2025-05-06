@@ -19,7 +19,7 @@ int main(){
 
     vec.push_back({1,2});
     vec.emplace_back(1,2); // adding elements
-    // emolace_back is generally faster than push_back
+    // emplace_back is generally faster than push_back
  
     // container containing 5 instances of 100 with is already defined.
     vector<int> v(5, 100);
@@ -29,11 +29,6 @@ int main(){
 
     vector<int> v1(5, 20);
     vector<int> v2(v1);
-
-
-
-
-
 
     return 0;
 }
